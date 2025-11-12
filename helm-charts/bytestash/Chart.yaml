@@ -1,5 +1,5 @@
 apiVersion: v2
-name: bytestash
+name: codehub
 description: A Helm chart for deploying ByteStash to Kubernetes
 
 type: application
