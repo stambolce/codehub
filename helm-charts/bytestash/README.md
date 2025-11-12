@@ -1,8 +1,8 @@
-# ByteStash Helm Chart for Kubernetes
+# CodeHub Helm Chart for Kubernetes
 
 ## Before you begin
 
-This [Helm](https://github.com/kubernetes/helm) chart supports installation of [ByteStash](https://github.com/jordan-dalby/ByteStash) - A code snippet storage solution written in React & node.js
+This [Helm](https://github.com/kubernetes/helm) chart supports installation of [CodeHub](https://github.com/stambolce/codehub) - A code snippet storage solution written in React & node.js
 
 The prerequisites for this Helm chart is a working **Kubernetes Cluster** and **Helm** installed.
 
@@ -14,16 +14,16 @@ To install Helm, see [Helm Installation guide](https://helm.sh/docs/intro/instal
 
 ## Installation and Configuration
 
-To add the ByteStash helm repository, run command:
+To add the CodeHub helm repository, run command:
 
 ```bash
-helm repo add bytestash https://jordan-dalby.github.io/ByteStash/
+helm repo add bytestash https://stambolce.github.io/codehub/
 ```
 
 To install the ByteStash helm chart with a release name `my-release` in `ns` namespace, run command:
 
 ```bash
-helm install -n ns --create-namespace my-release bytestash/bytestash
+helm install -n ns --create-namespace my-release codehub/codehub
 ```
 
 To update latest changes of the charts from the Helm repository, run commands:
@@ -31,7 +31,7 @@ To update latest changes of the charts from the Helm repository, run commands:
 ```bash
 helm repo update
 
-helm -n ns upgrade my-release bytestash/bytestash
+helm -n ns upgrade my-release codehub/codehub
 
 ```
 
