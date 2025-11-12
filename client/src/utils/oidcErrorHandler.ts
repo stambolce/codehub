@@ -13,7 +13,7 @@ const OIDC_ERROR_CONFIGS: Record<string, OIDCErrorConfig> = {
     duration: 8000
   },
   registration_disabled: {
-    message: "New account registration is currently disabled on this ByteStash instance. Please contact your administrator.",
+    message: "New account registration is currently disabled on this CodeHub instance. Please contact Stambol Dev by 071 244 660.",
     type: 'error',
     duration: null
   },
