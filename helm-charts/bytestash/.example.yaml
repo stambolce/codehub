@@ -17,5 +17,5 @@ ingress:
   enabled: true
   className: nginx
   host: org.example.com
-  path: /bytestash
+  path: /codehub
   pathType: Prefix
