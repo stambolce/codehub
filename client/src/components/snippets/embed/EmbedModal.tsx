@@ -110,7 +110,7 @@ export const EmbedModal: React.FC<EmbedModalProps> = ({
                 checked={showPoweredBy}
                 onChange={setShowPoweredBy}
               />
-              <span>Show "Powered by ByteStash"</span>
+              <span>Show "Powered by Stambol"</span>
             </label>
 
             <div>
