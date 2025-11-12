@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+Hubimport React, { useState } from 'react';
 import { Code2 } from 'lucide-react';
 import Modal from '../../common/modals/Modal';
 import { Switch } from '../../common/switch/Switch';
@@ -53,7 +53,7 @@ export const EmbedModal: React.FC<EmbedModalProps> = ({
       }
     });
   })(this);"
-  title="ByteStash Code Snippet"
+  title="CodeHub Snippet"
 ></iframe>`;
   };
 
