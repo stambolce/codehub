@@ -1,4 +1,4 @@
-Hubimport React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Code2 } from 'lucide-react';
 import Modal from '../../common/modals/Modal';
 import { Switch } from '../../common/switch/Switch';
