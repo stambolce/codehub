@@ -17,12 +17,12 @@ import { Switch } from "../common/switch/Switch";
 import { getAssetPath } from "../../utils/paths";
 import JSZip from "jszip";
 
-const GITHUB_URL = "https://github.com/jordan-dalby/ByteStash";
+const GITHUB_URL = "https://github.com/stambolce/codehub";
 const DOCKER_URL =
-  "https://github.com/jordan-dalby/ByteStash/pkgs/container/bytestash";
+  "https://github.com/stambolce/codehub/pkgs/container/codehub";
 const REDDIT_URL =
-  "https://www.reddit.com/r/selfhosted/comments/1gb1ail/selfhosted_code_snippet_manager/";
-const WIKI_URL = "https://github.com/jordan-dalby/ByteStash/wiki";
+  "https://github.com/stambolce/codehub";
+const WIKI_URL = "https://github.com/stambolce/codehub/wiki";
 
 interface ImportProgress {
   total: number;
