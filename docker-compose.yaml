@@ -6,7 +6,7 @@ services:
     ports:
       - "5000:5000"
     environment:
-      # e.g. write /bytestash for a domain such as my.domain/bytestash, leave blank in every other case
+      # e.g. write /snippets for a domain such as my.domain/snippets, leave blank in every other case
       - BASE_PATH=
       # optionally include additional allowed hosts for reverse proxies
       # e.g. localhost,my.domain.com,my.domain.net
@@ -31,7 +31,7 @@ services:
       - OIDC_ENABLED=true
       # Optional: Display name for users signing in with SSO, will default to Single Sign-on
       - OIDC_DISPLAY_NAME=
-      # Your OIDC issuer url, e.g. https://authentik.mydomain.com/application/o/bytestash/ for authentik
+      # Your OIDC issuer url, e.g. https://authentik.mydomain.com/application/o/snippets/ for authentik
       - OIDC_ISSUER_URL=
       # Your OIDC client ID, you can find it in your app provider
       - OIDC_CLIENT_ID=
